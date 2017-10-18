@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="zero.one.developers.casestudy.fragment.SortedNumberFragment">
+
+
+        <TableLayout
+            android:stretchColumns="*"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableLayout">
+            <TableRow>
+                <TextView
+                    style="@style/TableHeading"
+                    android:background="@color/colorAccent"
+                    android:text="@string/quicksort"
+                    />
+                <TextView
+                    style="@style/TableHeading"
+                    android:background="@color/teal_a700"
+                    android:text="@string/mergesort"
+                    />
+            </TableRow>
+        </TableLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_below="@+id/tableLayout"
+            android:layout_alignParentStart="true">
+
+
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/quicksort_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/mergesort_recyclerview"
+                android:layout_width="match_parent"
+                android:background="@color/cyan_a700"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:layout_marginStart="26dp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
+
+

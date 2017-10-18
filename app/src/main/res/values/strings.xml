@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CaseStudy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="generate_random_numbers">Generate Random Numbers</string>
+    <string name="sort_radom_numbers">Sort Random Numbers</string>
+    <string name="swipe_left_right">Swipe left right to see more numbers</string>
+
+    <string name="quicksort">Quick Sorted </string>
+    <string name="mergesort">Merge Sorted </string>
+</resources>

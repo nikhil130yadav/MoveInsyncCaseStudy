@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="listitem_padding">10dp</dimen>
+    <dimen name="listietm_textsize">40sp</dimen>
+    <dimen name="listietm_sorted_textsize">20sp</dimen>
+
+
+    <dimen name="tableheading_padding">10dp</dimen>
+    <dimen name="tableHeading_textsize">22sp</dimen>
+
+</resources>

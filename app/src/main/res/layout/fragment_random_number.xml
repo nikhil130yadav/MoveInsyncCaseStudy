@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zero.one.developers.casestudy.fragment.RandomNumberFragment">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/randomnumber_recyclerview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/swipe_left_right"
+            android:gravity="center"
+
+            android:layout_below="@+id/randomnumber_recyclerview"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp" />
+
+        <Button
+            android:id="@+id/generate_numbers_btn"
+            style="@style/OperationButton"
+            android:text="@string/generate_random_numbers"
+            android:layout_below="@+id/sort_numbers_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp" />
+
+        <Button
+            android:id="@+id/sort_numbers_btn"
+            style="@style/OperationButton"
+            android:text="@string/sort_radom_numbers"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
